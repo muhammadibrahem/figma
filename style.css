@@ -1221,3 +1221,13 @@
           gap: 12px;
       }
   }
+
+  @media(max-width:540px) {
+      body {
+          margin-left: 6rem;
+      }
+
+      .hero {
+          margin-left: -6rem;
+      }
+  }
