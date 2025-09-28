@@ -86,7 +86,6 @@
 
   .header-btn-2:hover {
       background: #1B413B;
-
       color: white;
       border: 1px solid white;
   }
@@ -138,7 +137,6 @@
       padding: 60px 0;
       display: flex;
       flex-wrap: nowrap;
-
       min-height: 80vh;
 
   }
@@ -276,6 +274,14 @@
 
   }
 
+  @media(max-width:400px) {
+      .container-1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  }
+
   .stats-container {
       max-width: 1100px;
       margin: 60px auto;
@@ -336,6 +342,12 @@
       flex-shrink: 0;
   }
 
+  @media(max-width:400px) {
+      .stats-container {
+          margin-left: 6rem;
+      }
+  }
+
   .feature-container {
       background-color: #0a3d2d;
       max-width: 1000px;
@@ -344,6 +356,7 @@
       padding: 40px;
       color: #fff;
       position: relative;
+
   }
 
   .feature {
@@ -385,6 +398,8 @@
       gap: 20px;
       margin-top: 40px;
   }
+
+
 
   .card {
       background: #fff;
@@ -494,6 +509,7 @@
           padding: 10px 20px;
           font-size: 13px;
       }
+
   }
 
   /* ✅ Small screens (≤ 400px) */
@@ -591,6 +607,7 @@
       font-weight: bold;
   }
 
+
   .video-container {
       max-width: 1200px;
       margin: 30px auto;
@@ -624,7 +641,7 @@
   .video-container img {
       width: 100%;
       max-width: 1000px;
-      height: auto;
+      height: 100%;
       border-radius: 8px;
   }
 
@@ -645,12 +662,12 @@
       }
 
       .video-container svg {
-          width: 50px;
-          height: 50px;
+          width: 30px;
+          height: 30px;
       }
   }
 
-  /* Tablets (≤ 600px) */
+
   @media (max-width: 600px) {
       .video-container {
           height: 500px;
@@ -668,15 +685,16 @@
       .video-container svg {
           width: 45px;
           height: 45px;
+          top: 30%
       }
   }
 
-  /* Small screens (≤ 480px) */
-  @media (max-width: 480px) {
+
+  @media (max-width: 400px) {
       .video-container {
           height: auto;
-          /* Let content define height */
           padding: 15px;
+
       }
 
       .video-container h1 {
@@ -692,12 +710,12 @@
       }
 
       .video-container svg {
-          width: 40px;
-          height: 40px;
+          width: 30px;
+          height: 30px;
       }
   }
 
-  /* Extra small (≤ 360px) */
+
   @media (max-width: 360px) {
       .video-container h1 {
           font-size: 18px;
@@ -712,7 +730,6 @@
           height: 35px;
       }
   }
-
 
   .about-container {
       max-width: 1200px;
@@ -799,6 +816,7 @@
       .about-container {
           padding: 20px;
           margin: 15px;
+
       }
 
       .about-left h1 {
@@ -981,6 +999,8 @@
       font-size: 0.85rem;
       color: #555;
   }
+
+
 
   footer {
       background-color: #003c34;
