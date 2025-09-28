@@ -1230,4 +1230,12 @@
       .hero {
           margin-left: -6rem;
       }
+
+      .stats-container {
+          margin-left: -2rem;
+      }
+
+      .container-1 {
+          margin-left: 1rem;
+      }
   }
