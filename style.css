@@ -1199,14 +1199,14 @@
       }
   }
 
-  /* Make footer full width between 561px and 300px */
+
   @media (max-width: 561px) {
       .footer-container {
           max-width: 100%;
           width: 100%;
           padding: 20px 15px;
           margin: 0;
-          /* remove auto margin */
+
       }
 
       .footer-links {
@@ -1231,18 +1231,23 @@
 
   @media(max-width:540px) {
       body {
-          margin-left: 6rem;
+          margin-left: 4rem;
       }
 
       .hero {
-          margin-left: -5rem;
+          margin-left: -3rem;
       }
 
       .stats-container {
-          margin-left: -1rem;
+          margin-left: rem;
       }
 
       .container-1 {
           margin-left: 0.5rem;
       }
+
+      .testimonials {
+          margin-left: 5rem;
+      }
+
   }
