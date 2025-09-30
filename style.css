@@ -279,6 +279,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          width: 300px;
+
       }
   }
 
@@ -344,7 +346,8 @@
 
   @media(max-width:400px) {
       .stats-container {
-          margin-left: 6rem;
+
+          align-items: center;
       }
   }
 
@@ -516,6 +519,7 @@
   @media (max-width: 400px) {
       .feature-container {
           padding: 20px;
+          width: 300px;
       }
 
       .feature h1 {
@@ -694,6 +698,7 @@
       .video-container {
           height: auto;
           padding: 15px;
+          width: 400px;
 
       }
 
@@ -816,6 +821,7 @@
       .about-container {
           padding: 20px;
           margin: 15px;
+          width: 400px;
 
       }
 
@@ -837,6 +843,7 @@
   @media (max-width: 360px) {
       .about-container {
           padding: 15px;
+
       }
 
       .about-left h1 {
@@ -1228,14 +1235,14 @@
       }
 
       .hero {
-          margin-left: -6rem;
+          margin-left: -5rem;
       }
 
       .stats-container {
-          margin-left: -2rem;
+          margin-left: -1rem;
       }
 
       .container-1 {
-          margin-left: 1rem;
+          margin-left: 0.5rem;
       }
   }
